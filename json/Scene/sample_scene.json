@@ -92,8 +92,8 @@
 						"opacity": 255,
 						"opacityModifyRGB": false,
 						"position": {
-							"x": 241,
-							"y": 393
+							"x": 210,
+							"y": 558
 						},
 						"rotationSkewX": 0,
 						"rotationSkewY": 0,
@@ -104,7 +104,9 @@
 						"tag": -1,
 						"groupIndex": 0,
 						"colliders": []
-					}
+					},
+					"layoutType": 0,
+					"resizeMode": 0
 				},
 				"object_type": "Layout",
 				"children": []
@@ -113,7 +115,7 @@
 				"object": {
 					"node": {
 						"contentSize": {
-							"w": 200,
+							"w": 300,
 							"h": 150
 						},
 						"enabled": true,
@@ -124,17 +126,17 @@
 						},
 						"cascadeOpacityEnabled": true,
 						"color": {
-							"r": 167,
-							"g": 167,
-							"b": 167
+							"r": 60,
+							"g": 80,
+							"b": 102
 						},
 						"globalZOrder": 0,
 						"localZOrder": 0,
 						"opacity": 255,
 						"opacityModifyRGB": false,
 						"position": {
-							"x": 241,
-							"y": 393
+							"x": 210,
+							"y": 403
 						},
 						"rotationSkewX": 0,
 						"rotationSkewY": 0,
@@ -145,7 +147,9 @@
 						"tag": -1,
 						"groupIndex": 0,
 						"colliders": []
-					}
+					},
+					"layoutType": 0,
+					"resizeMode": 0
 				},
 				"object_type": "Layout",
 				"children": []
@@ -165,17 +169,17 @@
 						},
 						"cascadeOpacityEnabled": true,
 						"color": {
-							"r": 167,
-							"g": 167,
-							"b": 167
+							"r": 9,
+							"g": 134,
+							"b": 255
 						},
 						"globalZOrder": 0,
 						"localZOrder": 0,
 						"opacity": 255,
 						"opacityModifyRGB": false,
 						"position": {
-							"x": 241,
-							"y": 393
+							"x": 210,
+							"y": 244
 						},
 						"rotationSkewX": 0,
 						"rotationSkewY": 0,
@@ -186,7 +190,9 @@
 						"tag": -1,
 						"groupIndex": 0,
 						"colliders": []
-					}
+					},
+					"layoutType": 2,
+					"resizeMode": 0
 				},
 				"object_type": "Layout",
 				"children": []
@@ -215,8 +221,8 @@
 						"opacity": 255,
 						"opacityModifyRGB": false,
 						"position": {
-							"x": 241,
-							"y": 393
+							"x": 210,
+							"y": 87
 						},
 						"rotationSkewX": 0,
 						"rotationSkewY": 0,
@@ -227,7 +233,9 @@
 						"tag": -1,
 						"groupIndex": 0,
 						"colliders": []
-					}
+					},
+					"layoutType": 3,
+					"resizeMode": 0
 				},
 				"object_type": "Layout",
 				"children": []
@@ -327,6 +335,135 @@
 						"children": []
 					}
 				]
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 200,
+							"h": 150
+						},
+						"enabled": true,
+						"name": "sample_layout_no_spriteframe",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 167,
+							"g": 167,
+							"b": 167
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 759,
+							"y": 336
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1,
+						"groupIndex": 0,
+						"colliders": []
+					},
+					"layoutType": 0,
+					"resizeMode": 0
+				},
+				"object_type": "Layout",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 200,
+							"h": 150
+						},
+						"enabled": true,
+						"name": "sample_layout_custom_sprite",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 167,
+							"g": 167,
+							"b": 167
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 759,
+							"y": 154
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1,
+						"groupIndex": 0,
+						"colliders": []
+					},
+					"layoutType": 0,
+					"resizeMode": 0
+				},
+				"object_type": "Layout",
+				"children": []
+			},
+			{
+				"object": {
+					"node": {
+						"contentSize": {
+							"w": 200,
+							"h": 150
+						},
+						"enabled": true,
+						"name": "sample_layout_disabled_sprite",
+						"anchorPoint": {
+							"x": 0.5,
+							"y": 0.5
+						},
+						"cascadeOpacityEnabled": true,
+						"color": {
+							"r": 167,
+							"g": 167,
+							"b": 167
+						},
+						"globalZOrder": 0,
+						"localZOrder": 0,
+						"opacity": 255,
+						"opacityModifyRGB": false,
+						"position": {
+							"x": 759,
+							"y": 513
+						},
+						"rotationSkewX": 0,
+						"rotationSkewY": 0,
+						"scaleX": 1,
+						"scaleY": 1,
+						"skewX": 0,
+						"skewY": 0,
+						"tag": -1,
+						"groupIndex": 0,
+						"colliders": []
+					},
+					"layoutType": 0,
+					"resizeMode": 0
+				},
+				"object_type": "Layout",
+				"children": []
 			}
 		]
 	},
